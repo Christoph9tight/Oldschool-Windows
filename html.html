@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontaktformular</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <a href="index.html">Home</a>
+            <a href="./contact.html">Contact</a>
+            <a href="#about">About Us</a>
+            <a href="./html.html">HTML Übungen</a>
+            <a href="css.html">CSS Übung</a>
+        </ul>
+     </nav>
+    <h1>Kontaktformular</h1>
+    <form>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br/>
+        <label for="age">Age</label>
+        <input type="number" id="age">
+        <br/>
+        <label for="email">Email</label>
+        <input type="email" id="email">
+        <br/>
+        <label for="message">Message</label>
+        <textarea id="message">Message</textarea>
+        <br/>
+        <button type="button" href="https://www.geeksforgeeks.org/button-tag-vs-input-typebutton-attribute/">Submit</button>
+    </form>
+    <br>
+    <br>
+    <br>
+<hr>
+    <br>
+    <br>
+    <br>
+
+    <h1>Sportartenformular</h1>
+
+    <fieldset>
+        <legend>Sport Picker</legend>
+            <form>
+                <label for="sportpicker">Select your sport</label>
+                <select id="sportpicker" required>
+                    <option value="Rugby">Rugby</option>
+                    <option value="Soccer">Soccer</option>
+                    <option value="Golf">Golf</option>
+                </select>
+                <label for="timepicker">Select your time</label>
+                <input type="date" id="timepicker" required>
+            </form>
+            <button>Validate</button>
+    </fieldset>
+    <br>
+    <br>
+    <br>
+<hr>
+    <br>
+    <br>
+    <br>
+
+    <h1>Tabelle</h1>
+    <table border='1'>
+        <thead>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Email</th>
+            </tr>
+        <tbody>
+            <tr>
+                <td>John</td>
+                <td>Doe</td>
+                <td>(john@doe.org)</td>
+            </tr>
+            <tr>                
+                <td>Jane</td>
+                <td>Doe</td>
+                <td>(jane@doe.org)</td>
+            </tr>
+            <tr>
+                <td colspan='2'>Buckethead</td>
+                <td>(buckethead@music.org)</td>
+            </tr>
+        </tbody>    
+        </thead>
+    </table>
+    </body>
+</html>
